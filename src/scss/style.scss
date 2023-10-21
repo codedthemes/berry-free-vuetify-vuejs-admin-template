@@ -23,7 +23,12 @@
 
 @import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
 
-.DarkPurpleTheme, .DarkGreenTheme, .DarkPinkTheme, .DarkYellowTheme, .DarkSeaGreenTheme, .DarkOliveGreenTheme, .DarkSpeechBlueTheme {
-    @import './layout/dark';
+.DarkPurpleTheme,
+.DarkGreenTheme,
+.DarkPinkTheme,
+.DarkYellowTheme,
+.DarkSeaGreenTheme,
+.DarkOliveGreenTheme,
+.DarkSpeechBlueTheme {
+  @import './layout/dark';
 }
-
