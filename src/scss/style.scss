@@ -1,0 +1,29 @@
+@import './variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
+@import './layout/horizontal';
+
+@import './components/VAlert';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VCarousel';
+@import './components/VField';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+@import './components/VTextField';
+@import './components/VTextarea';
+@import './components/VTabs';
+
+@import './pages/dashboards';
+@import './pages/editor';
+
+@import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css';
+
+.DarkPurpleTheme, .DarkGreenTheme, .DarkPinkTheme, .DarkYellowTheme, .DarkSeaGreenTheme, .DarkOliveGreenTheme, .DarkSpeechBlueTheme {
+    @import './layout/dark';
+}
+

@@ -1,0 +1,12 @@
+
+.apexcharts-tooltip {
+    &.apexcharts-theme-light {
+        background-color: rgb(var(--v-theme-containerBg));
+        border: 1px solid rgb(var(--v-theme-borderlight));
+        .apexcharts-tooltip-title {
+            background: rgb(var(--v-theme-surface));
+            border-bottom: 1px solid rgb(var(--v-theme-borderlight));
+        }
+    }
+}
+

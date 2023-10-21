@@ -1,0 +1,34 @@
+.v-input--density-default,
+.v-field--variant-solo,
+.v-field--variant-filled {
+  --v-input-control-height: 51px;
+  --v-input-padding-top: 14px;
+}
+.v-input--density-comfortable {
+  --v-input-control-height: 56px;
+  --v-input-padding-top: 17px;
+}
+.v-label {
+  font-size: 0.975rem;
+}
+.v-switch .v-label,
+.v-checkbox .v-label {
+  opacity: 1;
+}
+
+.todo-list {
+  .v-selection-control.v-selection-control--dirty {
+    .v-label {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.wrap-label {
+  .v-selection-control {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: calc(100% - 15px);
+  }
+}

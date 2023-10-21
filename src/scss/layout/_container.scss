@@ -1,0 +1,248 @@
+html {
+  overflow-y: auto;
+}
+.v-main {
+  margin-right: 20px;
+}
+.horizontalLayout {
+  .v-main {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 1279px) {
+  .v-main {
+    margin: 0 10px;
+  }
+}
+.spacer {
+  padding: 100px 0;
+}
+@media (max-width: 800px) {
+  .spacer {
+    padding: 40px 0;
+  }
+}
+.page-wrapper {
+  background: rgb(var(--v-theme-containerBg));
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.page-wrapper {
+  min-height: calc(100vh - 100px);
+  padding: 15px;
+  border-radius: $border-radius-root;
+}
+.maxWidth {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+$sizes: (
+  'display-1': 44px,
+  'display-2': 40px,
+  'display-3': 30px,
+  'h1': 36px,
+  'h2': 30px,
+  'h3': 21px,
+  'h4': 18px,
+  'h5': 16px,
+  'h6': 14px,
+  'text-8': 8px,
+  'text-10': 10px,
+  'text-13': 13px,
+  'text-18': 18px,
+  'text-20': 20px,
+  'text-24': 24px,
+  'body-text-1': 10px
+);
+
+@each $pixel, $size in $sizes {
+  .#{$pixel} {
+    font-size: $size;
+    line-height: $size + 10;
+  }
+}
+
+.customizer-btn {
+  position: fixed;
+  top: 25%;
+  right: 10px;
+  border-radius: 50% 50% 4px;
+  .icon {
+    animation: progress-circular-rotate 1.4s linear infinite;
+    transform-origin: center center;
+    transition: all 0.2s ease-in-out;
+  }
+}
+.fixed-width {
+  max-width: 1300px;
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-3 {
+  gap: 16px;
+}
+
+.gap-4 {
+  gap: 24px;
+}
+
+.text-white {
+  color: rgb(255, 255, 255) !important;
+}
+// border
+.border-right {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.themeBluePurple,
+.themeDarkPurple {
+  background: linear-gradient(135deg, rgb(33, 150, 243) 50%, rgb(103, 58, 183) 50%);
+}
+.themeGreenDark,
+.themeDarkGreen {
+  background: linear-gradient(135deg, rgb(96, 125, 139) 50%, rgb(0, 150, 136) 50%);
+}
+
+.themePink,
+.themeDarkPink {
+  background: linear-gradient(135deg, rgb(32, 52, 97) 50%, rgb(236, 64, 122) 50%);
+}
+.themeYellow,
+.themeDarkYellow {
+  background: linear-gradient(135deg, rgb(22, 89, 90) 50%, rgb(199, 126, 35) 50%);
+}
+
+.themeSeaGreen,
+.themeDarkSeaGreen {
+  background: linear-gradient(135deg, rgb(23, 62, 67) 50%, rgb(63, 176, 172) 50%);
+}
+
+.themeOliveGreen,
+.themeDarkOliveGreen {
+  background: linear-gradient(135deg, rgb(10, 35, 66) 50%, rgb(44, 165, 141) 50%);
+}
+
+.themeSpeechBlue,
+.themeDarkSpeechBlue {
+  background: linear-gradient(135deg, rgb(63 81 181) 50%, rgb(63, 81, 181) 50%);
+}
+
+// font family
+
+body {
+  .Poppins {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  .Inter {
+    font-family: 'Inter', sans-serif !important;
+  }
+}
+
+@keyframes wings {
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0%,
+  20%,
+  53%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+  40%,
+  43% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -5px, 0);
+  }
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    transform: translate3d(0, -7px, 0);
+  }
+  80% {
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translateZ(0);
+  }
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@keyframes slideY {
+  0%,
+  50%,
+  100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes slideX {
+  0%,
+  50%,
+  100% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+.link {
+  color: rgb(var(--v-theme-lightText));
+  text-decoration: none;
+  &:hover {
+    color: rgb(var(--v-theme-primary));
+  }
+}
+
+.z-auto.v-card {
+  z-index: auto;
+}
+
+.position-unset {
+  position: unset;
+}
