@@ -13,14 +13,6 @@ html {
   border-color: rgba(var(--v-theme-borderLight), 0.36);
 }
 
-.v-table > .v-table__wrapper > table > thead > tr > th {
-  color: inherit;
-}
-
-.border-blue-right {
-  border-right: 1px solid rgba(var(--v-theme-borderLight), 0.36);
-}
-
 .v-selection-control {
   flex: unset;
 }

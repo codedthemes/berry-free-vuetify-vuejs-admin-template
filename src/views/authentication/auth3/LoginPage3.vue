@@ -43,39 +43,4 @@ import AuthLogin from '../authForms/AuthLogin.vue';
   max-width: 475px;
   margin: 0 auto;
 }
-
-.cardAnimation {
-  &:after {
-    content: '';
-    position: absolute;
-    top: 32%;
-    left: 40%;
-    width: 313px;
-    background-size: 380px;
-    height: 280px;
-    background-image: url('@/assets/images/auth/auth-purple-card.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: 15s wings ease-in-out infinite;
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 23%;
-    left: 37%;
-    width: 243px;
-    height: 210px;
-    background-size: 380px;
-    background-image: url('@/assets/images/auth/auth-blue-card.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: 15s wings ease-in-out infinite;
-    animation-delay: 1s;
-  }
-}
-
-.bgpattern {
-  background: url('@/assets/images/auth/auth-pattern.svg') repeat;
-}
 </style>

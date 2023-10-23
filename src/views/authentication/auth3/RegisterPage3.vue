@@ -43,39 +43,4 @@ import AuthRegister from '../authForms/AuthRegister.vue';
   max-width: 475px;
   margin: 0 auto;
 }
-
-.cardAnimation {
-  &:after {
-    content: '';
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    width: 260px;
-    background-size: 380px;
-    height: 290px;
-    background-image: url('@/assets/images/auth/auth-signup-white-card.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: 15s wings ease-in-out infinite;
-  }
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 12%;
-    left: 25%;
-    width: 360px;
-    height: 350px;
-    background-size: 460px;
-    background-image: url('@/assets/images/auth/auth-signup-blue-card.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    animation: 15s wings ease-in-out infinite;
-    animation-delay: 1s;
-  }
-}
-
-.bgpattern {
-  background: url('@/assets/images/auth/auth-pattern.svg') repeat;
-}
 </style>

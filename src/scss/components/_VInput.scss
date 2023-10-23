@@ -15,20 +15,3 @@
 .v-checkbox .v-label {
   opacity: 1;
 }
-
-.todo-list {
-  .v-selection-control.v-selection-control--dirty {
-    .v-label {
-      text-decoration: line-through;
-    }
-  }
-}
-
-.wrap-label {
-  .v-selection-control {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: calc(100% - 15px);
-  }
-}
