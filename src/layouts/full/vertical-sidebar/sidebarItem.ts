@@ -44,12 +44,12 @@ const sidebarItem: menu[] = [
       {
         title: 'Login',
         icon: CircleIcon,
-        to: '/auth/login3'
+        to: '/auth/login'
       },
       {
         title: 'Register',
         icon: CircleIcon,
-        to: '/auth/register3'
+        to: '/auth/register'
       }
     ]
   },

@@ -86,7 +86,7 @@ function validate(values: any, { setErrors }: any) {
   </Form>
   <div class="mt-5 text-right">
     <v-divider />
-    <v-btn variant="plain" to="/auth/register3" class="mt-2 text-capitalize mr-n2">Don't Have an account?</v-btn>
+    <v-btn variant="plain" to="/auth/register" class="mt-2 text-capitalize mr-n2">Don't Have an account?</v-btn>
   </div>
 </template>
 <style lang="scss">
