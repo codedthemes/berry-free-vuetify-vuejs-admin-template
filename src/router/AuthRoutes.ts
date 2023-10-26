@@ -6,14 +6,14 @@ const AuthRoutes = {
   },
   children: [
     {
-      name: 'Login 3',
+      name: 'Login',
       path: '/auth/login',
-      component: () => import('@/views/authentication/auth3/LoginPage3.vue')
+      component: () => import('@/views/authentication/auth/LoginPage.vue')
     },
     {
-      name: 'Register 3',
+      name: 'Register',
       path: '/auth/register',
-      component: () => import('@/views/authentication/auth3/RegisterPage3.vue')
+      component: () => import('@/views/authentication/auth/RegisterPage.vue')
     },
     {
       name: 'Error 404',
