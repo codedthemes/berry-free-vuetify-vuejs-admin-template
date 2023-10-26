@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "build-stage": "vue-tsc --noEmit && vite build --base=/vue/stage/",
-    "build-prod": "vue-tsc --noEmit && vite build --base=/vue/",
+    "build-stage": "vue-tsc --noEmit && vite build --base=/vue/free/stage/",
+    "build-prod": "vue-tsc --noEmit && vite build --base=/vue/free/",
     "preview": "vite preview --port 5050",
     "typecheck": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
