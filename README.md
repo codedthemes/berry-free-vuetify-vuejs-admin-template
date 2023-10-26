@@ -7,7 +7,7 @@ Berry is a free Material UI admin dashboard template built with Vue. It is meant
 
 :star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme :star: :star: :star:
 
-![IMG_8566.jpg](https://berrydashboard.io/imp-images/berry-github-free-repo-1.jpg)
+![IMG_8566.jpg](https://berrydashboard.io/imp-images/berry-github-free-vue-repo.jpg)
 
 [Pro version](https://berrydashboard.io/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
