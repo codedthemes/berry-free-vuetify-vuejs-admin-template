@@ -13,12 +13,6 @@
 .v-card {
   width: 100%;
   overflow: visible;
-  &.withbg {
-    background-color: rgb(var(--v-theme-background));
-  }
-  &.overflow-hidden {
-    overflow: hidden;
-  }
 }
 
 .v-card-item {
