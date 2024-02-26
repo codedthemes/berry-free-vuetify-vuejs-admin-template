@@ -19,7 +19,7 @@ const sidebarMenu = shallowRef(sidebarItems);
     v-model="customizer.Sidebar_drawer"
     elevation="0"
     rail-width="75"
-    mobile-breakpoint="960"
+    mobile-breakpoint="lg"
     app
     class="leftSidebar"
     :rail="customizer.mini_sidebar"
@@ -52,7 +52,7 @@ const sidebarMenu = shallowRef(sidebarItems);
         <ExtraBox />
       </div>
       <div class="pa-4 text-center">
-        <v-chip color="inputBorder" size="small"> v1.0.0 </v-chip>
+        <v-chip color="inputBorder" size="small"> v1.3.0 </v-chip>
       </div>
     </perfect-scrollbar>
   </v-navigation-drawer>

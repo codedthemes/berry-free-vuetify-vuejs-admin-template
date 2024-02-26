@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-row no-gutters class="h-100vh">
+  <v-row no-gutters class="h-screen">
     <v-col class="d-flex align-center justify-center">
       <div class="text-center">
         <div class="CardMediaWrapper">

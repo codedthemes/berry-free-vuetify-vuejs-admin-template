@@ -3,6 +3,7 @@ import { RouterView } from 'vue-router';
 import VerticalSidebarVue from './vertical-sidebar/VerticalSidebar.vue';
 import VerticalHeaderVue from './vertical-header/VerticalHeader.vue';
 import Customizer from './customizer/CustomizerPanel.vue';
+import FooterPanel from './footer/FooterPanel.vue';
 import { useCustomizerStore } from '../../stores/customizer';
 const customizer = useCustomizerStore();
 </script>
@@ -31,6 +32,11 @@ const customizer = useCustomizerStore();
             >
               <SettingsIcon class="icon" />
             </v-btn>
+          </div>
+        </v-container>
+        <v-container fluid class="pt-0">
+          <div>
+            <FooterPanel />
           </div>
         </v-container>
       </v-main>
