@@ -4,7 +4,7 @@ import { shallowRef } from 'vue';
 const footerLink = shallowRef([
   {
     title: 'Home',
-    url: '/'
+    url: 'https://berrydashboard.io/vue/free'
   },
   {
     title: 'Documentation',
