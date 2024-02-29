@@ -85,22 +85,26 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 
 -   Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
 
-## Berry - Nodejs version by Appseed
+## Berry Free - Other Technologies
 
--   [Free Nodejs](https://appseed.us/product/react-node-js-berry-dashboard)
--   [Premium Berry Nodejs](https://appseed.us/full-stack/react-berry-dashboard)
+- [React](https://codedthemes.com/item/berry-mui-free-react-admin-template/)
+- [Bootstrap](https://codedthemes.com/item/berry-bootstrap-free-admin-template/)
+- [Angular](https://codedthemes.com/item/berry-angular-free-admin-template/)
 
-## More Free React Material Admin Templates
+## Berry Pro - Other Technologies
 
--   [Free Materially](https://codedthemes.com/item/materially-free-reactjs-admin-template/)
--   [Free Mantis](https://mantisdashboard.io/free/)
+- [React](https://codedthemes.com/item/berry-material-react-admin-template/)
+- [Bootstrap](https://codedthemes.com/item/berry-bootstrap-5-admin-template/)
+- [Angular](https://codedthemes.com/item/berry-angular-admin-dashboard-template/)
+- [.Net](https://codedthemes.com/item/berry-dotnet-bootstrap-dashboard-template/)
+- [CodeIgnitor](https://codedthemes.com/item/berry-codeigniter-admin-template/)
+- [Django](https://codedthemes.com/item/berry-django-react-admin-template/)
+- [NodeJS](https://codedthemes.com/item/berry-react-node-js-admin-template/)
 
-[![IMG_8566.jpg](https://camo.githubusercontent.com/a2364ad8c498b2a7378dae5e1a5eb5d8e1fcb2d6ceeb8b54acdc2e8bc2508775/68747470733a2f2f6d616e74697364617368626f6172642e696f2f6164762d62616e6e65722d696d616765732f6f672d736f6369616c2e706e67)](https://mantisdashboard.io/free/)
+## More Premium Vue Material Admin Templates
 
-## More Premium React Material Admin Templates
-
--   [Mantis](https://mui.com/store/items/mantis-react-admin-dashboard-template/)
--   [Materially](https://codedthemes.com/item/materially-reactjs-admin-dashboard/)
+- [Mantis](https://codedthemes.com/item/mantis-vue-admin-template/)
+- [Able Pro](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiDpKWU6c-EAxWb1DgGHZrqBlwQFnoECBUQAQ&url=https%3A%2F%2Fthemeforest.net%2Fitem%2Fable-pro-vuejs-admin-dashboard-template%2F50804253&usg=AOvVaw1wWW-BC8ltIxIs-Rb1Mu8C&opi=89978449)
 
 ## Follow us
 
