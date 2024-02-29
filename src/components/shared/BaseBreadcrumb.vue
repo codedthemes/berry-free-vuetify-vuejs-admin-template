@@ -1,9 +1,14 @@
 <script setup lang="ts">
 import { ChevronRightIcon } from 'vue-tabler-icons';
+
+type Breadcrumb = {
+  title: string;
+  disabled: boolean;
+  href: string;
+};
 const props = defineProps({
   title: String,
-  /* eslint-disable @typescript-eslint/no-explicit-any */
-  breadcrumbs: Array as any,
+  breadcrumbs: Array as () => Breadcrumb[],
   icon: String
 });
 </script>
@@ -12,7 +17,7 @@ const props = defineProps({
 <template>
   <v-row class="page-breadcrumb mb-1 mt-1">
     <v-col cols="12" md="12">
-      <v-card variant="outlined" elevation="0" class="px-4 py-3 withbg">
+      <v-card variant="flat" class="px-4 py-3">
         <v-row no-gutters class="align-center">
           <v-col md="5">
             <h3 class="text-h3">{{ props.title }}</h3>

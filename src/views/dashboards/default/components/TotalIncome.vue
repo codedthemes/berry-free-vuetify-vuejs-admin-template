@@ -3,7 +3,7 @@
 <template>
   <v-card elevation="0" class="bg-primary overflow-hidden bubble-shape-sm bubble-primary mb-6">
     <v-card-text class="pa-5">
-      <div class="d-flex align-center gap-3">
+      <div class="d-flex align-center ga-4">
         <v-btn color="darkprimary" icon rounded="sm" variant="flat">
           <TableIcon stroke-width="1.5" width="25" />
         </v-btn>
@@ -17,7 +17,7 @@
 
   <v-card elevation="0" class="bubble-shape-sm overflow-hidden bubble-warning">
     <v-card-text class="pa-5">
-      <div class="d-flex align-center gap-3">
+      <div class="d-flex align-center ga-4">
         <v-btn color="lightwarning" icon rounded="sm" variant="flat">
           <BuildingStoreIcon stroke-width="1.5" width="25" class="text-warning" />
         </v-btn>

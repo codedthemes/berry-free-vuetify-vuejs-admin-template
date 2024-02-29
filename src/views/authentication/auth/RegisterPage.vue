@@ -4,7 +4,7 @@ import AuthRegister from '../authForms/AuthRegister.vue';
 </script>
 
 <template>
-  <v-row class="h-100vh" no-gutters>
+  <v-row class="h-screen" no-gutters>
     <!---Left Part-->
     <v-col cols="12" class="d-flex align-center bg-lightprimary">
       <v-container>
