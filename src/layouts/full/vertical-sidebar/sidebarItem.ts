@@ -44,7 +44,7 @@ const sidebarItem: menu[] = [
       {
         title: 'Login',
         icon: CircleIcon,
-        to: '/auth/login'
+        to: '/auth/login1'
       },
       {
         title: 'Register',
