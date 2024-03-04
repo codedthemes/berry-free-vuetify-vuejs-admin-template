@@ -7,20 +7,10 @@ export const fetchWrapper = {
   delete: request('DELETE')
 };
 
-interface temp {
-  method: string;
-  headers: Record<string, string>;
-  body?: string;
-}
-
-interface UserData {
-  username: string;
-  password: string;
-}
-
 function request(method: string) {
   return (url: string, body?: object) => {
-    const requestOptions: temp = {
+    /* eslint-disable @typescript-eslint/no-explicit-any */
+    const requestOptions: any = {
       method,
       headers: authHeader(url)
     };
@@ -34,7 +24,7 @@ function request(method: string) {
 
 // helper functions
 
-function authHeader(url: string): Record<string, string> {
+function authHeader(url: string) {
   // return auth header with jwt if user is logged in and request is to the api url
   const { user } = useAuthStore();
   const isLoggedIn = !!user?.token;
@@ -46,7 +36,7 @@ function authHeader(url: string): Record<string, string> {
   }
 }
 
-function handleResponse(response: Response): Promise<UserData> {
+function handleResponse(response: any) {
   return response.text().then((text: string) => {
     const data = text && JSON.parse(text);
 
@@ -57,11 +47,10 @@ function handleResponse(response: Response): Promise<UserData> {
         logout();
       }
 
-      const error: string = (data && data.message) || response.statusText;
+      const error = (data && data.message) || response.statusText;
       return Promise.reject(error);
     }
 
-    // Ensure data is of type UserData
-    return data as UserData;
+    return data;
   });
 }

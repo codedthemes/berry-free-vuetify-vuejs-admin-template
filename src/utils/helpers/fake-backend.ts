@@ -1,27 +1,11 @@
 export { fakeBackend };
 
-interface User {
-  id: number;
-  username: string;
-  password: string;
-  firstName: string;
-  lastName: string;
-}
-
-interface ResponseBody {
-  id: number;
-  username: string;
-  firstName: string;
-  lastName: string;
-  token: string;
-}
-
 function fakeBackend() {
-  const users: User[] = [{ id: 1, username: 'info@codedthemes.com', password: 'admin123', firstName: 'Codedthemes', lastName: '.com' }];
+  const users = [{ id: 1, username: 'info@codedthemes.com', password: 'admin123', firstName: 'Codedthemes', lastName: '.com' }];
   const realFetch = window.fetch;
-
-  window.fetch = function (url: string, opts: { method: string; headers: { [key: string]: string }; body?: string }) {
-    return new Promise<Response>((resolve, reject) => {
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  window.fetch = function (url: any, opts: any) {
+    return new Promise((resolve: any, reject) => {
       // wrap in timeout to simulate server api call
       setTimeout(handleRoute, 500);
 
@@ -40,10 +24,13 @@ function fakeBackend() {
       }
 
       // route functions
+
       function authenticate() {
         const { username, password } = body();
-        const user = users.find((x) => x.username === username && x.password === password);
+        const user: any = users.find((x) => x.username === username && x.password === password);
+
         if (!user) return error('Username or password is incorrect');
+
         return ok({
           id: user.id,
           username: user.username,
@@ -59,16 +46,17 @@ function fakeBackend() {
       }
 
       // helper functions
-      function ok(body: User[] | ResponseBody): void {
-        resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(body)) } as Response);
+
+      function ok(body: any) {
+        resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(body)) });
       }
 
       function unauthorized() {
-        resolve({ status: 401, text: () => Promise.resolve(JSON.stringify({ message: 'Unauthorized' })) } as Response);
+        resolve({ status: 401, text: () => Promise.resolve(JSON.stringify({ message: 'Unauthorized' })) });
       }
 
       function error(message: string) {
-        resolve({ status: 400, text: () => Promise.resolve(JSON.stringify({ message })) } as Response);
+        resolve({ status: 400, text: () => Promise.resolve(JSON.stringify({ message })) });
       }
 
       function isAuthenticated() {
@@ -79,5 +67,5 @@ function fakeBackend() {
         return opts.body && JSON.parse(opts.body);
       }
     });
-  } as typeof window.fetch; // Type assertion here
+  };
 }
