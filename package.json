@@ -14,6 +14,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-pattern .gitignore"
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "@tiptap/starter-kit": "2.3.2",
     "@tiptap/vue-3": "2.3.2",
     "@tsconfig/node20": "20.1.4",
@@ -40,7 +41,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.1.1",
-    "@mdi/font": "7.4.47",
     "@types/chance": "1.1.6",
     "@types/node": "20.12.11",
     "@vitejs/plugin-vue": "5.0.4",

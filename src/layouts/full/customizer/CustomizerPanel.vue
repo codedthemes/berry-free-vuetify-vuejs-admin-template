@@ -29,7 +29,8 @@ function clearoptions() {
                 <v-btn color="error" variant="outlined" size="small" class="mr-2" @click="clearoptions"> Reset </v-btn>
                 <v-btn
                   variant="text"
-                  icon="mdi-close"
+                  color="lightText"
+                  icon="$close"
                   density="compact"
                   @click.stop="customizer.SET_CUSTOMIZER_DRAWER(!customizer.Customizer_drawer)"
                 ></v-btn>
