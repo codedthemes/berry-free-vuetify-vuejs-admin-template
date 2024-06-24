@@ -31,7 +31,7 @@ const props = defineProps({
                 </div>
               </template>
               <template v-slot:prepend>
-                <v-icon size="small" icon="mdi-home" class="text-secondary mr-2"></v-icon>
+                <v-icon size="small" icon="$home" class="text-secondary mr-2"></v-icon>
                 <div class="d-flex align-center">
                   <ChevronRightIcon size="17" />
                 </div>
