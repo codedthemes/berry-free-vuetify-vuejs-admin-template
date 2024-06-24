@@ -11,49 +11,49 @@ Berry is a free Material admin dashboard template built with Vue. It is meant to
 
 [Pro version](https://berrydashboard.io/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Berry Free](https://berrydashboard.io/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/) |
-| --------------------------------------------- | :----------------------------------------------------------------------- |
-| **9** Demo pages                              | **45+** demo pages                                                       |
-| -                                             | ✓ Multi-language                                                         |
-| -                                             | ✓ Dark/Light Mode 🌓                                                     |
-| -                                             | ✓ TypeScript version                                                     |
-| -                                             | ✓ Design files (Figma)                                                   |
-| -                                             | ✓ 6+ color Options                                                       |
-| -                                             | ✓ RTL                                                                    |
-| -                                             | ✓ JWT authentications                                   |
-| -                                             | ✓ [More components](https://berrydashboard.io/vue/dashboard/default)         |
+| [Berry Free](https://berrydashboard.io/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/)     |
+| ------------------------------------------------- | :------------------------------------------------------------------- |
+| **9** Demo pages                                  | **45+** demo pages                                                   |
+| -                                                 | ✓ Multi-language                                                     |
+| -                                                 | ✓ Dark/Light Mode 🌓                                                 |
+| -                                                 | ✓ TypeScript version                                                 |
+| -                                                 | ✓ Design files (Figma)                                               |
+| -                                                 | ✓ 6+ color Options                                                   |
+| -                                                 | ✓ RTL                                                                |
+| -                                                 | ✓ JWT authentications                                                |
+| -                                                 | ✓ [More components](https://berrydashboard.io/vue/dashboard/default) |
 
 ## Why Berry?
 
 Berry offers everything you need to create dashboards. We have included the following high-end features in our initial release:
 
--   Modern aesthetics UI design
--   Vuetify components
--   Fully Responsive, all modern browser supported
--   Easy to use code structure
--   Flexible & High-Performance code
--   Easy Documentation Guide
+- Modern aesthetics UI design
+- Vuetify components
+- Fully Responsive, all modern browser supported
+- Easy to use code structure
+- Flexible & High-Performance code
+- Easy Documentation Guide
 
 ## Free Berry Vue version
 
--   [Preview](https://berrydashboard.io/vue/free/)
--   [Download from Github](https://github.com/codedthemes/berry-free-vue-admin-template)
+- [Preview](https://berrydashboard.io/vue/free/)
+- [Download from Github](https://github.com/codedthemes/berry-free-vue-admin-template)
 
 ## Berry Pro version
 
--   [Preview](https://berrydashboard.io/vue)
--   [Purchase from Store](https://codedthemes.com/item/berry-vue-admin-dashboard/)
+- [Preview](https://berrydashboard.io/vue)
+- [Purchase from Store](https://codedthemes.com/item/berry-vue-admin-dashboard/)
 
 ## Table of contents
 
--   [Getting Started](#getting-started)
--   [Documentation](#documentation)
--   [Technology Stack](#technology-stack)
--   [Author](#author)
--   [Issues?](#issues)
--   [License](#license)
--   [More Products](#more-free-react-material-admin-templates)
--   [Follow us](#follow-us)
+- [Getting Started](#getting-started)
+- [Documentation](#documentation)
+- [Technology Stack](#technology-stack)
+- [Author](#author)
+- [Issues?](#issues)
+- [License](#license)
+- [More Products](#more-free-react-material-admin-templates)
+- [Follow us](#follow-us)
 
 ## Getting Started
 
@@ -69,9 +69,9 @@ git clone https://github.com/codedthemes/berry-free-vue-admin-template.git
 
 ## Technology Stack
 
--   [Vuetify 3](https://vuetifyjs.com/)
--   Vite
--   Vue3
+- [Vuetify 3](https://vuetifyjs.com/)
+- Vite
+- Vue3
 
 ## Author
 
@@ -83,7 +83,7 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 
 ## License
 
--   Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+- Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
 
 ## Berry Free - Other Technologies
 
@@ -108,9 +108,9 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 
 ## Follow us
 
--   [Website](https://berrydashboard.io)
--   [Blog](https://blog.berrydashboard.io)
--   [CodedThemes](https://codedthemes.com)
--   [Dribbble](https://dribbble.com/codedthemes)
--   [Facebook](https://www.facebook.com/codedthemes)
--   [Twitter](https://twitter.com/codedthemes)
+- [Website](https://berrydashboard.io)
+- [Blog](https://blog.berrydashboard.io)
+- [CodedThemes](https://codedthemes.com)
+- [Dribbble](https://dribbble.com/codedthemes)
+- [Facebook](https://www.facebook.com/codedthemes)
+- [Twitter](https://twitter.com/codedthemes)

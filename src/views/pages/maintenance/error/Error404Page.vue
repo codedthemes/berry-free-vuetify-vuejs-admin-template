@@ -14,7 +14,7 @@
         <p>
           <small>The page you are looking was moved, removed, <br />renamed, or might never exist! </small>
         </p>
-        <v-btn variant="flat" color="primary" class="mt-4" to="/" prepend-icon="mdi-home"> Home</v-btn>
+        <v-btn variant="flat" color="primary" class="mt-4" to="/" prepend-icon="$home"> Home</v-btn>
       </div>
     </v-col>
   </v-row>

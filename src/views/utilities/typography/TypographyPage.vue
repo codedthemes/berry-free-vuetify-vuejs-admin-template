@@ -63,7 +63,7 @@ const breadcrumbs = ref([
           </div>
         </UiChildCard>
         <UiChildCard title="Decoration" class="mt-8">
-          <div class="d-flex justify-space-between flex-row">
+          <div class="d-flex justify-space-between flex-wrap">
             <a href="#" class="text-decoration-none">Non-underlined link</a>
 
             <div class="text-decoration-line-through">Line-through text</div>
