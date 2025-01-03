@@ -34,3 +34,31 @@ html {
     transform: rotate(270deg);
   }
 }
+
+// apexchart css
+.apexcharts-canvas {
+  .apexcharts-tooltip-rangebar {
+    padding: 0px 8px 5px;
+  }
+  .apexcharts-tooltip-title {
+    margin-bottom: 0;
+  }
+  .apexcharts-tooltip {
+    &.apexcharts-theme-light {
+      color: rgb(var(--v-theme-darkText));
+    }
+  }
+  .apexcharts-tooltip-series-group {
+    &.apexcharts-active,
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  .apexcharts-menu {
+    .apexcharts-menu-item {
+      &:hover {
+        background: rgb(var(--v-theme-gray100));
+      }
+    }
+  }
+}
