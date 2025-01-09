@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MainRoutes from './MainRoutes';
-import AuthRoutes from './AuthRoutes';
+import PublicRoutes from './PublicRoutes';
 import { useAuthStore } from '@/stores/auth';
 
 export const router = createRouter({
@@ -11,7 +11,7 @@ export const router = createRouter({
       component: () => import('@/views/pages/maintenance/error/Error404Page.vue')
     },
     MainRoutes,
-    AuthRoutes
+    PublicRoutes
   ]
 });
 
@@ -32,16 +32,26 @@ interface AuthStore {
 
 router.beforeEach(async (to, from, next) => {
   // redirect to login page if not logged in and trying to access a restricted page
-  const publicPages = ['/auth/login'];
-  const authRequired = !publicPages.includes(to.path);
+  const publicPages = ['/'];
   const auth: AuthStore = useAuthStore();
 
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    if (authRequired && !auth.user) {
-      auth.returnUrl = to.fullPath;
-      return next('/auth/login');
-    } else next();
+  const isPublicPage = publicPages.includes(to.path);
+  const authRequired = !isPublicPage && to.matched.some((record) => record.meta.requiresAuth);
+
+  // User not logged in and trying to access a restricted page
+  if (authRequired && !auth.user) {
+    auth.returnUrl = to.fullPath; // Save the intended page
+    next('/login');
+  } else if (auth.user && to.path === '/login') {
+    // User logged in and trying to access the login page
+    next({
+      query: {
+        ...to.query,
+        redirect: auth.returnUrl !== '/' ? to.fullPath : undefined
+      }
+    });
   } else {
+    // All other scenarios, either public page or authorized access
     next();
   }
 });

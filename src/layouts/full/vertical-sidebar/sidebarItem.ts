@@ -44,19 +44,19 @@ const sidebarItem: menu[] = [
       {
         title: 'Login',
         icon: CircleIcon,
-        to: '/auth/login'
+        to: '/login1'
       },
       {
         title: 'Register',
         icon: CircleIcon,
-        to: '/auth/register'
+        to: '/register'
       }
     ]
   },
   {
     title: 'Error 404',
     icon: BugIcon,
-    to: '/pages/error'
+    to: '/error'
   },
   { divider: true },
   { header: 'Utilities' },
