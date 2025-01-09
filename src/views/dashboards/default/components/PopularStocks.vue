@@ -25,7 +25,7 @@ const chartOptions1 = computed(() => {
       width: 1
     },
     tooltip: {
-      theme: 'dark',
+      theme: 'light',
       fixed: {
         enabled: false
       },

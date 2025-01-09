@@ -32,7 +32,7 @@ const chartOptions1 = computed(() => {
       max: 100
     },
     tooltip: {
-      theme: 'dark',
+      theme: 'light',
       fixed: {
         enabled: false
       },
@@ -90,7 +90,7 @@ const chartOptions2 = computed(() => {
       max: 100
     },
     tooltip: {
-      theme: 'dark',
+      theme: 'light',
       fixed: {
         enabled: false
       },

@@ -38,6 +38,10 @@
       font-size: 0.875rem;
     }
   }
+  .v-list-group__items .v-list-item {
+    margin-inline-start: calc(2px + var(--indent-padding) / 2);
+    padding-inline-start: 16px !important;
+  }
   .leftPadding {
     margin-left: 4px;
   }
