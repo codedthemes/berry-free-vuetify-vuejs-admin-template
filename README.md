@@ -87,13 +87,9 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## Technology Stack
 
-- Angular 19.x.x
-- Bootstrap 5.x.x
-- TypeScript
-- JWT (i.e. Pro version)
-- Role Base Authentication (i.e. Pro version)
-- Apex Charts
-- npm package installer
+- [Vuetify 3](https://vuetifyjs.com/)
+- [Vite](https://vite.dev/)
+- Vue3
 
 ## Berry Figma UI Kit
 
@@ -130,7 +126,7 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 
 ## License
 
-- Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+- Licensed cover under [MIT](https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template/blob/master/LICENSE)
 
 ## Contributor
 
