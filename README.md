@@ -1,4 +1,4 @@
-# Berry Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# Berry Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,7 +11,7 @@ Berry is a free Material admin dashboard template built with Vue. It is meant to
 
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
-![IMG_8566.jpg](https://berrydashboard.io/imp-images/berry-github-free-vue-repo.jpg)
+![IMG_8566.jpg](https://berrydashboard.com/imp-images/berry-github-free-vue-repo.jpg)
 
 ## Table of contents
 
@@ -44,10 +44,10 @@ git clone https://github.com/codedthemes/berry-free-vue-admin-template.git
 ## Download
 
 - Berry Free
-  - [Live Preview](https://berrydashboard.io/vue/free/)
+  - [Live Preview](https://berrydashboard.com/vue/free/)
   - [Download](https://github.com/codedthemes/berry-free-vue-admin-template)
 - Berry
-  - [Live Preview](https://berrydashboard.io/vue)
+  - [Live Preview](https://berrydashboard.com/vue)
   - [Download](https://codedthemes.com/item/berry-vue-admin-dashboard/)
 
 ## Why Berry?
@@ -63,9 +63,9 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## What's included in Premium Version?
 
-[Pro version](https://berrydashboard.io/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+[Pro version](https://berrydashboard.com/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Berry Free](https://berrydashboard.io/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/) |
+| [Berry Free](https://berrydashboard.com/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/) |
 | --------------------------------------------- | :----------------------------------------------------------------------- |
 | **9** Demo pages                              | **45+** demo pages                                                       |
 | -                                             | ✓ Multi-language                                                         |
@@ -75,7 +75,7 @@ Berry offers everything you need to create dashboards. We have included the foll
 | -                                             | ✓ 6+ color Options                                                       |
 | -                                             | ✓ RTL                                                                    |
 | -                                             | ✓ JWT authentications                                   |
-| -                                             | ✓ [More components](https://berrydashboard.io/vue/components/autocomplete)   |
+| -                                             | ✓ [More components](https://berrydashboard.com/vue/components/autocomplete)   |
 
 ## Documentation
 
