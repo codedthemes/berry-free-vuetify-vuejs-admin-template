@@ -10,27 +10,27 @@ This page (folder) is a sneak peek into the premium features available in <b>ver
 
 ## Included in the Pro Version:
 
-[🚀 Dashboards](https://berrydashboard.io/vue/dashboard/default) : Advanced dashboards with real-time insights and data visualizations for actionable metrics.
+[🚀 Dashboards](https://berrydashboard.com/vue/dashboard/default) : Advanced dashboards with real-time insights and data visualizations for actionable metrics.
 
-[📦 Widgets](https://berrydashboard.io/vue/widget/statistics) : A curated library of pre-built widgets for enhanced functionality and faster development.
+[📦 Widgets](https://berrydashboard.com/vue/widget/statistics) : A curated library of pre-built widgets for enhanced functionality and faster development.
 
-[🔧 Components](https://berrydashboard.io/vue/components/buttons) : A rich collection of reusable and customizable UI components.
+[🔧 Components](https://berrydashboard.com/vue/components/buttons) : A rich collection of reusable and customizable UI components.
 
-[🚀 Advanced Components](https://berrydashboard.io/vue/advance/snackbar) : Customizable and dynamic Snackbar components for delivering seamless notifications and user feedback in your application.
+[🚀 Advanced Components](https://berrydashboard.com/vue/advance/snackbar) : Customizable and dynamic Snackbar components for delivering seamless notifications and user feedback in your application.
 
-[📝 Forms](https://berrydashboard.io/vue/forms/formvalidation) : Dynamic and customizable forms with advanced validation features for a smooth user experience.
+[📝 Forms](https://berrydashboard.com/vue/forms/formvalidation) : Dynamic and customizable forms with advanced validation features for a smooth user experience.
 
-[📊 Tables](https://berrydashboard.io/vue/tables/tbl-basic) :  Simple and clean tables for displaying structured data effectively.
+[📊 Tables](https://berrydashboard.com/vue/tables/tbl-basic) :  Simple and clean tables for displaying structured data effectively.
 
-[📈 Charts](https://berrydashboard.io/vue/forms/charts/apexchart) : Beautifully designed charts powered by modern data visualization libraries.
+[📈 Charts](https://berrydashboard.com/vue/forms/charts/apexchart) : Beautifully designed charts powered by modern data visualization libraries.
 
-[🔒 Authentication](https://berrydashboard.io/vue/register1) : Secure pages for login, registration, and password recovery, ensuring robust user management.
+[🔒 Authentication](https://berrydashboard.com/vue/register1) : Secure pages for login, registration, and password recovery, ensuring robust user management.
 
-[🛒 E-commerce App](https://berrydashboard.io/vue/ecommerce/products) : A streamlined system for managing products and inventory in your e-commerce platform.
+[🛒 E-commerce App](https://berrydashboard.com/vue/ecommerce/products) : A streamlined system for managing products and inventory in your e-commerce platform.
 
-[💬 Chat Messages](https://berrydashboard.io/vue/app/chats) : An integrated chat system to enhance communication within your application.
+[💬 Chat Messages](https://berrydashboard.com/vue/app/chats) : An integrated chat system to enhance communication within your application.
 
-[👤 Account Profile](https://berrydashboard.io/vue/app/user/account-profile/profile1) : A sleek and customizable account profile page for managing user details and settings.
+[👤 Account Profile](https://berrydashboard.com/vue/app/user/account-profile/profile1) : A sleek and customizable account profile page for managing user details and settings.
 
 ## Why Upgrade to the Pro Version?
 
