@@ -4,8 +4,7 @@ import { fetchWrapper } from '@/utils/helpers/fetch-wrapper';
 
 const baseUrl = `${import.meta.env.VITE_API_URL}/users`;
 
-export const useAuthStore = defineStore({
-  id: 'auth',
+export const useAuthStore = defineStore('auth', {
   state: () => ({
     // initialize state from local storage to enable user to stay logged in
     /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */

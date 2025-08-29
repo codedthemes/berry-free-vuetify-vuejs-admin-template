@@ -1,29 +1,44 @@
+import { ref } from 'vue';
 import { defineStore } from 'pinia';
 import config from '@/config';
 
-export const useCustomizerStore = defineStore({
-  id: 'customizer',
-  state: () => ({
-    Sidebar_drawer: config.Sidebar_drawer,
-    Customizer_drawer: config.Customizer_drawer,
-    mini_sidebar: config.mini_sidebar,
-    fontTheme: config.fontTheme,
-    inputBg: config.inputBg
-  }),
+export const useCustomizerStore = defineStore('customizer', () => {
+  const Sidebar_drawer = ref(config.Sidebar_drawer);
+  const Customizer_drawer = ref(config.Customizer_drawer);
+  const mini_sidebar = ref(config.mini_sidebar);
+  const fontTheme = ref(config.fontTheme);
+  const inputBg = ref(config.inputBg);
 
-  getters: {},
-  actions: {
-    SET_SIDEBAR_DRAWER() {
-      this.Sidebar_drawer = !this.Sidebar_drawer;
-    },
-    SET_MINI_SIDEBAR(payload: boolean) {
-      this.mini_sidebar = payload;
-    },
-    SET_CUSTOMIZER_DRAWER(payload: boolean) {
-      this.Customizer_drawer = payload;
-    },
-    SET_FONT(payload: string) {
-      this.fontTheme = payload;
-    }
+  function SET_SIDEBAR_DRAWER() {
+    Sidebar_drawer.value = !Sidebar_drawer.value;
   }
+
+  function SET_CUSTOMIZER_DRAWER(payload: boolean) {
+    Customizer_drawer.value = payload;
+  }
+
+  function SET_MINI_SIDEBAR(payload: boolean) {
+    mini_sidebar.value = payload;
+  }
+
+  function SET_INPUTBG(payload: boolean) {
+    inputBg.value = payload;
+  }
+
+  function SET_FONT(payload: string) {
+    fontTheme.value = payload;
+  }
+
+  return {
+    Sidebar_drawer,
+    Customizer_drawer,
+    mini_sidebar,
+    fontTheme,
+    inputBg,
+    SET_SIDEBAR_DRAWER,
+    SET_CUSTOMIZER_DRAWER,
+    SET_MINI_SIDEBAR,
+    SET_FONT,
+    SET_INPUTBG
+  };
 });

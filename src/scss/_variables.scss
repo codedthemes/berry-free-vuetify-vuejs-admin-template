@@ -3,37 +3,51 @@
 @use 'sass:meta';
 @use 'vuetify/lib/styles/tools/functions' as *;
 
-// This will false all colors which is not necessory for theme
-$color-pack: false;
-
 // Global font size and border radius
-$font-size-root: 1rem;
 $border-radius-root: 12px;
 $body-font-family: 'Roboto', sans-serif !default;
-$heading-font-family: $body-font-family !default;
 $btn-font-weight: 400 !default;
 $btn-letter-spacing: 0 !default;
 
-// Global Radius as per breakeven point
-$rounded: () !default;
-$rounded: map-deep-merge(
-  (
-    0: 0,
-    'sm': $border-radius-root * 0.5,
-    null: $border-radius-root,
-    'md': $border-radius-root * 1,
-    'lg': $border-radius-root * 2,
-    'xl': $border-radius-root * 6,
-    'pill': 9999px,
-    'circle': 50%,
-    'shaped': $border-radius-root * 6 0
-  ),
-  $rounded
-);
-// Global Typography
-$typography: () !default;
-$typography: map-deep-merge(
-  (
+// Custom Variables
+// colors
+$white: #fff !default;
+
+// cards
+$card-item-spacer-xy: 20px 24px !default;
+$card-text-spacer: 24px !default;
+$card-title-size: 18px !default;
+
+// Global Shadow
+$box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
+
+// Vuetify overrides
+@use 'vuetify/styles' with (
+  // This will false all colors which is not necessory for theme
+  $color-pack: false,
+
+  // global font family
+  $body-font-family: $body-font-family,
+  $heading-font-family: $body-font-family,
+
+  // Global Radius as per breakeven point
+  $rounded: (
+      (
+        0: 0,
+        'sm': $border-radius-root * 0.5,
+        null: $border-radius-root,
+        'md': $border-radius-root * 1,
+        'lg': $border-radius-root * 2,
+        'xl': $border-radius-root * 6,
+        'pill': 9999px,
+        'circle': 50%,
+        'shaped': $border-radius-root * 6 0
+      )
+    ),
+
+  // Global Typography
+  $font-size-root: 1rem,
+  $typography: (
     'h1': (
       'size': 2.125rem,
       'weight': 700,
@@ -108,17 +122,5 @@ $typography: map-deep-merge(
       'font-family': inherit,
       'text-transform': uppercase
     )
-  ),
-  $typography
+  )
 );
-
-// Custom Variables
-// colors
-$white: #fff !default;
-
-// cards
-$card-item-spacer-xy: 20px 24px !default;
-$card-text-spacer: 24px !default;
-$card-title-size: 18px !default;
-// Global Shadow
-$box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
