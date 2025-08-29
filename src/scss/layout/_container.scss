@@ -1,3 +1,5 @@
+@use '../variables' as *; // or use a namespace like 'vars'
+
 html {
   overflow-y: auto;
 }

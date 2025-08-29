@@ -1,19 +1,19 @@
-@import './variables';
-@import 'vuetify/styles/main.sass';
-@import './override';
-@import './layout/container';
-@import './layout/sidebar';
-@import './layout/topbar';
+@use './variables';
+@use 'vuetify/styles/main.sass';
+@use './override';
+@use './layout/container';
+@use './layout/sidebar';
+@use './layout/topbar';
 
-@import './components/VButtons';
-@import './components/VCard';
-@import './components/VField';
-@import './components/VInput';
-@import './components/VNavigationDrawer';
-@import './components/VShadow';
-@import './components/VTextField';
-@import './components/VTabs';
+@use './components/VButtons';
+@use './components/VCard';
+@use './components/VField';
+@use './components/VInput';
+@use './components/VNavigationDrawer';
+@use './components/VShadow';
+@use './components/VTextField';
+@use './components/VTabs';
 
-@import './pages/dashboards';
+@use './pages/dashboards';
 
-@import 'vue3-perfect-scrollbar/style.css';
+@use 'vue3-perfect-scrollbar/style.css';
