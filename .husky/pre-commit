@@ -83,7 +83,7 @@ run_project_checks() {
 # PROCESS EACH PROJECT
 # -----------------------
 if echo "$STAGED_FILES" | grep -q "^/"; then
-  run_project_checks "free-version"
+  run_project_checks 
 fi
 
 # -----------------------
