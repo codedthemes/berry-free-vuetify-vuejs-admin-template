@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 /*This is for the logo*/
 .leftSidebar {
   border: 0px;
@@ -36,6 +38,9 @@
     }
     .v-list-item-title {
       font-size: 0.875rem;
+    }
+    .v-list-item__content {
+      min-width: unset;
     }
   }
   .v-list-group__items .v-list-item {
