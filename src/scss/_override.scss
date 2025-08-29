@@ -43,6 +43,9 @@ html {
   .apexcharts-tooltip-title {
     margin-bottom: 0;
   }
+  .apexcharts-tooltip-marker {
+    margin-top: -9px;
+  }
   .apexcharts-tooltip {
     &.apexcharts-theme-light {
       color: rgb(var(--v-theme-darkText));

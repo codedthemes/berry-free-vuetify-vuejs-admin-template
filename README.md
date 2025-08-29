@@ -1,9 +1,8 @@
 # Berry Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-vue-admin-template/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-vuetify-vuejs-admin-template)](https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template/) 
+[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-vuetify-vuejs-admin-template)](https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template/)
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/berry-free-vuetify-vuejs-admin-template/)
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
 
@@ -65,17 +64,17 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 [Pro version](https://berrydashboard.com/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
-| [Berry Free](https://berrydashboard.com/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/) |
-| --------------------------------------------- | :----------------------------------------------------------------------- |
-| **9** Demo pages                              | **45+** demo pages                                                       |
-| -                                             | ✓ Multi-language                                                         |
-| -                                             | ✓ Dark/Light Mode 🌓                                                     |
-| -                                             | ✓ TypeScript version                                                     |
-| -                                             | ✓ Design files (Figma)                                                   |
-| -                                             | ✓ 6+ color Options                                                       |
-| -                                             | ✓ RTL                                                                    |
-| -                                             | ✓ JWT authentications                                   |
-| -                                             | ✓ [More components](https://berrydashboard.com/vue/components/autocomplete)   |
+| [Berry Free](https://berrydashboard.com/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/)            |
+| -------------------------------------------------- | :-------------------------------------------------------------------------- |
+| **9** Demo pages                                   | **45+** demo pages                                                          |
+| -                                                  | ✓ Multi-language                                                            |
+| -                                                  | ✓ Dark/Light Mode 🌓                                                        |
+| -                                                  | ✓ TypeScript version                                                        |
+| -                                                  | ✓ Design files (Figma)                                                      |
+| -                                                  | ✓ 6+ color Options                                                          |
+| -                                                  | ✓ RTL                                                                       |
+| -                                                  | ✓ JWT authentications                                                       |
+| -                                                  | ✓ [More components](https://berrydashboard.com/vue/components/autocomplete) |
 
 ## Documentation
 
@@ -104,11 +103,11 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## Other Technologies
 
-| Technology                                                                                                                        | Free                                                                              | Pro                                                                             |
-| --------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/berry-mui-free-react-admin-template/)       | [**Pro**](https://material-ui.com/store/items/berry-react-material-admin/) |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/berry-bootstrap-free-admin-template/)     | [**Pro**](https://codedthemes.com/item/berry-bootstrap-5-admin-template/)       |
-| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p>       | [**Free**](https://codedthemes.com/item/berry-angular-free-admin-template/) | [**Pro**](https://codedthemes.com/item/berry-angular-admin-dashboard-template/)              |
+| Technology                                                                                                                        | Free                                                                          | Pro                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="25" height="25"></p>     | [**Free**](https://codedthemes.com/item/berry-mui-free-react-admin-template/) | [**Pro**](https://material-ui.com/store/items/berry-react-material-admin/)      |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/berry-bootstrap-free-admin-template/) | [**Pro**](https://codedthemes.com/item/berry-bootstrap-5-admin-template/)       |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/berry-angular-free-admin-template/)   | [**Pro**](https://codedthemes.com/item/berry-angular-admin-dashboard-template/) |
 
 ## Save more with Big Bundle
 
@@ -116,9 +115,9 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## More Vue Dashboard Templates
 
-| Dashboard                                                                                                                                                          | FREE                                                                                | PRO                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;">  | [**Free**](https://codedthemes.com/item/mantis-free-vuetify-vuejs-admin-template/)                                        | [**Pro**](https://codedthemes.com/item/mantis-vue-admin-template/)</span>  |
+| Dashboard                                                                                                                                                         | FREE                                                                               | PRO                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/mantis-free-vuetify-vuejs-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-vue-admin-template/)</span> |
 
 ## Issues
 
