@@ -11,6 +11,9 @@ import Logo from '../logo/LogoMain.vue';
 
 const customizer = useCustomizerStore();
 const sidebarMenu = shallowRef(sidebarItems);
+
+// Assign the version to a variable
+const appVersion = import.meta.env.VITE_APP_VERSION;
 </script>
 
 <template>
@@ -52,7 +55,7 @@ const sidebarMenu = shallowRef(sidebarItems);
         <ExtraBox />
       </div>
       <div class="pa-4 text-center">
-        <v-chip color="inputBorder" size="small"> v1.4.0 </v-chip>
+        <v-chip color="inputBorder" size="small">{{ appVersion }}</v-chip>
       </div>
     </perfect-scrollbar>
   </v-navigation-drawer>
