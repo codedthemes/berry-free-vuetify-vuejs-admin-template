@@ -3,6 +3,8 @@
 @use 'sass:meta';
 @use 'vuetify/lib/styles/tools/functions' as *;
 
+@use "./grid/grid-breakpoints" as *;
+
 // Global font size and border radius
 $border-radius-root: 12px;
 $body-font-family: 'Roboto', sans-serif !default;
@@ -13,16 +15,12 @@ $btn-letter-spacing: 0 !default;
 // colors
 $white: #fff !default;
 
-// cards
-$card-item-spacer-xy: 20px 24px !default;
-$card-text-spacer: 24px !default;
-$card-title-size: 18px !default;
-
 // Global Shadow
 $box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
 
 // Vuetify overrides
 @use 'vuetify/styles' with (
+  $grid-breakpoints: $custom-grid-breakpoints,
   // This will false all colors which is not necessory for theme
   $color-pack: false,
 
@@ -47,80 +45,63 @@ $box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
 
   // Global Typography
   $font-size-root: 1rem,
-  $typography: (
-    'h1': (
-      'size': 2.125rem,
+  $typography: ('display-large': ('size': 2.125rem,
       'weight': 700,
       'line-height': 3.5rem,
-      'font-family': inherit
-    ),
-    'h2': (
-      'size': 1.5rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'display-medium': ('size': 1.5rem,
       'weight': 700,
       'line-height': 2.5rem,
-      'font-family': inherit
-    ),
-    'h3': (
-      'size': 1.25rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'display-small': ('size': 1.25rem,
       'weight': 600,
       'line-height': 2rem,
-      'font-family': inherit
-    ),
-    'h4': (
-      'size': 1rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'headline-large': ('size': 1rem,
       'weight': 600,
       'line-height': 1.5rem,
-      'font-family': inherit
-    ),
-    'h5': (
-      'size': 0.875rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'headline-medium': ('size': 0.875rem,
       'weight': 500,
       'line-height': 1.2rem,
-      'font-family': inherit
-    ),
-    'h6': (
-      'size': 0.75rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'headline-small': ('size': 0.75rem,
       'weight': 500,
-      'font-family': inherit
-    ),
-    'subtitle-1': (
-      'size': 0.875rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'body-large': ('size': 0.875rem,
       'weight': 500,
       'line-height': 1rem,
-      'font-family': inherit
-    ),
-    'subtitle-2': (
-      'size': 0.75rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'body-small': ('size': 0.75rem,
       'weight': 400,
+      'letter-spacing': normal,
       'line-height': 1rem,
-      'font-family': inherit
-    ),
-    'body-1': (
-      'size': 0.875rem,
+      'font-family': inherit),
+    'body-medium': ('size': 0.875rem,
       'weight': 400,
-      'font-family': inherit
-    ),
-    'body-2': (
-      'size': 0.75rem,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'label-large': ('size': 0.75rem,
       'weight': 400,
-      'font-family': inherit
-    ),
-    'button': (
-      'size': 0.875rem,
+      'font-family': inherit),
+    'button': ('size': 0.875rem,
+      'weight': 500,
+      'letter-spacing': normal,
+      'font-family': inherit,
+      'text-transform': uppercase),
+    'label-small': ('size': 0.75rem,
+      'weight': 400,
+      'letter-spacing': normal,
+      'font-family': inherit),
+    'label-medium': ('size': 0.75rem,
       'weight': 500,
       'font-family': inherit,
-      'text-transform': uppercase
-    ),
-    'caption': (
-      'size': 0.75rem,
-      'weight': 400,
-      'font-family': inherit
-    ),
-    'overline': (
-      'size': 0.75rem,
-      'weight': 500,
-      'font-family': inherit,
-      'text-transform': uppercase
-    )
-  )
-);
+      'letter-spacing': .1666666667em,
+      'text-transform': uppercase)));

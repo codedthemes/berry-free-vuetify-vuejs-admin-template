@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-row no-gutters class="h-screen">
+  <v-row gap="0" class="h-screen">
     <v-col class="d-flex align-center justify-center">
       <div class="text-center">
         <div class="CardMediaWrapper">
@@ -10,7 +10,7 @@
           <img src="@/assets/images/maintenance/img-error-text.svg" alt="build" class="CardMediaBuild" />
           <img src="@/assets/images/maintenance/img-error-purple.svg" alt="build" class="CardMediaBuild" />
         </div>
-        <h1 class="text-h1">Something is wrong</h1>
+        <h1>Something is wrong</h1>
         <p>
           <small>The page you are looking was moved, removed, <br />renamed, or might never exist! </small>
         </p>

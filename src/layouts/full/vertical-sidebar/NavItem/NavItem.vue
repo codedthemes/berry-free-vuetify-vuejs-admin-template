@@ -21,7 +21,7 @@ const props = defineProps({ item: Object, level: Number });
     </template>
     <v-list-item-title>{{ item.title }}</v-list-item-title>
     <!---If Caption-->
-    <v-list-item-subtitle v-if="item.subCaption" class="text-caption mt-n1 hide-menu">
+    <v-list-item-subtitle v-if="item.subCaption" class="text-label-small mt-n1 hide-menu">
       {{ item.subCaption }}
     </v-list-item-subtitle>
     <!---If any chip or label-->

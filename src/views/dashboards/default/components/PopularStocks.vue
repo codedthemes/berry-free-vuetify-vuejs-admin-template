@@ -87,7 +87,7 @@ const revenues = ref([
     <v-card variant="outlined">
       <v-card-text>
         <div class="d-flex align-center">
-          <h4 class="text-h4 mt-1">Popular Stocks</h4>
+          <h4 class="mt-1">Popular Stocks</h4>
           <div class="ml-auto">
             <v-menu transition="slide-y-transition">
               <template v-slot:activator="{ props }">
@@ -112,20 +112,20 @@ const revenues = ref([
           </div>
         </div>
 
-        <v-card class="bg-lightsecondary mt-5">
+        <v-card elevation="0" class="bg-lightsecondary mt-5">
           <div class="pa-5">
             <div class="d-flex align-start justify-space-between">
               <div>
-                <h6 class="text-secondary text-h5">Bajaj Finery</h6>
-                <span class="text-subtitle-2 text-medium-emphasis font-weight-bold">10% Profit</span>
+                <h5 class="text-secondary">Bajaj Finery</h5>
+                <h6 class="text-medium-emphasis font-weight-bold">10% Profit</h6>
               </div>
-              <h4 class="text-h4">$1839.00</h4>
+              <h4>$1839.00</h4>
             </div>
           </div>
           <apexchart type="area" height="95" :options="chartOptions1" :series="lineChart1.series"> </apexchart>
         </v-card>
         <div class="mt-4">
-          <perfect-scrollbar v-bind:style="{ height: '270px' }">
+          <perfect-scrollbar v-bind:style="{ height: '270px' }" :options="{ suppressScrollX: true }">
             <v-list lines="two" class="py-0">
               <v-list-item v-for="(revenue, i) in revenues" :key="i" :value="revenue" color="secondary" rounded="sm">
                 <template v-slot:append>
@@ -142,14 +142,14 @@ const revenues = ref([
                 </template>
                 <div class="d-inline-flex align-center justify-space-between w-100">
                   <div>
-                    <h6 class="text-subtitle-1 text-medium-emphasis font-weight-bold">
+                    <h5 class="text-medium-emphasis font-weight-bold">
                       {{ revenue.name }}
-                    </h6>
-                    <span v-if="revenue.price > 145" class="text-success text-subtitle-2">{{ revenue.profit }}% Profit</span>
-                    <span v-else class="text-error text-subtitle-2">{{ revenue.profit }}% Profit</span>
+                    </h5>
+                    <span v-if="revenue.price > 145" class="text-success text-body-small">{{ revenue.profit }}% Profit</span>
+                    <span v-else class="text-error text-body-small">{{ revenue.profit }}% Profit</span>
                   </div>
 
-                  <div class="ml-auto text-subtitle-1 text-medium-emphasis font-weight-bold">${{ revenue.price }}</div>
+                  <h5 class="ml-auto text-medium-emphasis font-weight-bold">${{ revenue.price }}</h5>
                 </div>
               </v-list-item>
             </v-list>

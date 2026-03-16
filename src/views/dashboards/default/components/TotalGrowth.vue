@@ -103,8 +103,8 @@ const lineChart1 = {
       <v-card-text>
         <v-row>
           <v-col cols="12" sm="9">
-            <span class="text-subtitle-2 text-disabled font-weight-bold">Total Growth</span>
-            <h3 class="text-h3 mt-1">$2,324.00</h3>
+            <h6 class="text-disabled font-weight-bold">Total Growth</h6>
+            <h3 class="mt-1">$2,324.00</h3>
           </v-col>
           <v-col cols="12" sm="3">
             <v-select

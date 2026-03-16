@@ -1,11 +1,15 @@
-import type { ThemeTypes } from '@/types/themeTypes/ThemeType';
+import type { ThemeDefinition } from 'vuetify';
 
-const PurpleTheme: ThemeTypes = {
-  name: 'PurpleTheme',
+const PurpleTheme: ThemeDefinition = {
   dark: false,
   variables: {
     'border-color': '#1e88e5',
-    'carousel-control-size': 10
+    'carousel-control-size': 10,
+    'high-opacity': 1,
+    'medium-opacity': 0.8,
+    'low-opacity': 0.5,
+    'field-input-padding-top': '12px',
+    'field-input-padding-bottom': '12px'
   },
   colors: {
     primary: '#1e88e5',

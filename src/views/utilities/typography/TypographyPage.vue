@@ -6,19 +6,19 @@ import UiChildCard from '@/components/shared/UiChildCard.vue';
 
 const page = ref({ title: 'Typography Page' });
 const headings = ref([
-  ['Heading 1', 'text-h1'],
-  ['Heading 2', 'text-h2'],
-  ['Heading 3', 'text-h3'],
-  ['Heading 4', 'text-h4'],
-  ['Heading 5', 'text-h5'],
-  ['Heading 6', 'text-h6'],
-  ['Subtitle 1', 'text-subtitle-1'],
-  ['Subtitle 2', 'text-subtitle-2'],
-  ['Body 1', 'text-body-1'],
-  ['Body 2', 'text-body-2'],
+  ['Heading 1', 'text-display-large'],
+  ['Heading 2', 'text-display-medium'],
+  ['Heading 3', 'text-display-small'],
+  ['Heading 4', 'text-headline-large'],
+  ['Heading 5', 'text-headline-medium'],
+  ['Heading 6', 'text-headline-small'],
+  ['Body Large', 'text-body-large'],
+  ['Body Small', 'text-body-small'],
+  ['Body Medium', 'text-body-medium'],
+  ['Label Large', 'text-label-large'],
   ['Button', 'text-button'],
-  ['Caption', 'text-caption'],
-  ['Overline', 'text-overline']
+  ['Label Small', 'text-label-small'],
+  ['Label Medium', 'text-label-medium']
 ]);
 const breadcrumbs = ref([
   {
@@ -40,10 +40,10 @@ const breadcrumbs = ref([
     <v-col cols="12" md="12">
       <UiParentCard title="Basic Typography">
         <UiChildCard title="Heading">
-          <div class="d-flex flex-column gap-1">
+          <div class="d-flex flex-column">
             <v-card variant="outlined" v-for="[name, cls] in headings" :key="name" class="my-4">
               <div :class="[cls, 'pa-2']">{{ name }}</div>
-              <div class="text-caption pa-2 bg-lightprimary">
+              <div class="text-label-small pa-2 bg-lightprimary">
                 <div class="text-grey">Class</div>
                 <div class="font-weight-medium">{{ cls }}</div>
               </div>
@@ -52,14 +52,14 @@ const breadcrumbs = ref([
         </UiChildCard>
         <UiChildCard title="Text-alignment" class="mt-8">
           <div>
-            <p class="text-left">Left aligned on all viewport sizes.</p>
-            <p class="text-center">Center aligned on all viewport sizes.</p>
-            <p class="text-right">Right aligned on all viewport sizes.</p>
+            <p class="text-left mb-0">Left aligned on all viewport sizes.</p>
+            <p class="text-center mb-0">Center aligned on all viewport sizes.</p>
+            <p class="text-right mb-0">Right aligned on all viewport sizes.</p>
 
-            <p class="text-sm-left">Left aligned on viewports SM (small) or wider.</p>
-            <p class="text-right text-md-left">Left aligned on viewports MD (medium) or wider.</p>
-            <p class="text-right text-lg-left">Left aligned on viewports LG (large) or wider.</p>
-            <p class="text-right text-xl-left">Left aligned on viewports XL (extra-large) or wider.</p>
+            <p class="text-sm-left mb-0">Left aligned on viewports SM (small) or wider.</p>
+            <p class="text-right text-md-left mb-0">Left aligned on viewports MD (medium) or wider.</p>
+            <p class="text-right text-lg-left mb-0">Left aligned on viewports LG (large) or wider.</p>
+            <p class="text-right text-xl-left mb-0">Left aligned on viewports XL (extra-large) or wider.</p>
           </div>
         </UiChildCard>
         <UiChildCard title="Decoration" class="mt-8">
@@ -75,9 +75,11 @@ const breadcrumbs = ref([
         </UiChildCard>
         <UiChildCard title="Opacity" class="mt-8">
           <div>
-            <p class="text-high-emphasis">High-emphasis has an opacity of 87% in light theme and 100% in dark.</p>
-            <p class="text-medium-emphasis">Medium-emphasis text and hint text have opacities of 60% in light theme and 70% in dark.</p>
-            <p class="text-disabled">Disabled text has an opacity of 38% in light theme and 50% in dark.</p>
+            <p class="text-high-emphasis mb-0">High-emphasis has an opacity of 87% in light theme and 100% in dark.</p>
+            <p class="text-medium-emphasis mb-0">
+              Medium-emphasis text and hint text have opacities of 60% in light theme and 70% in dark.
+            </p>
+            <p class="text-disabled mb-0">Disabled text has an opacity of 38% in light theme and 50% in dark.</p>
           </div>
         </UiChildCard>
       </UiParentCard>

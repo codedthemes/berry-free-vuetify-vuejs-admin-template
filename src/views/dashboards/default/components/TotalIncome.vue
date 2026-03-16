@@ -8,8 +8,8 @@
           <TableIcon stroke-width="1.5" width="25" />
         </v-btn>
         <div>
-          <h4 class="text-h4 font-weight-medium">$203k</h4>
-          <span class="text-subtitle-2 text-medium-emphasis text-white">Total Income</span>
+          <h4 class="font-weight-medium">$203k</h4>
+          <span class="text-body-small text-medium-emphasis text-white">Total Income</span>
         </div>
       </div>
     </v-card-text>
@@ -22,8 +22,8 @@
           <BuildingStoreIcon stroke-width="1.5" width="25" class="text-warning" />
         </v-btn>
         <div>
-          <h4 class="text-h4 font-weight-medium">$203k</h4>
-          <span class="text-subtitle-2 text-disabled font-weight-medium">Total Income</span>
+          <h4 class="font-weight-medium">$203k</h4>
+          <span class="text-body-small text-disabled font-weight-medium">Total Income</span>
         </div>
       </div>
     </v-card-text>

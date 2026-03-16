@@ -31,7 +31,7 @@ function validate() {
       <v-divider class="custom-devider" />
     </v-col>
   </v-row>
-  <h5 class="text-h5 text-center my-4 mb-8">Sign up with Email address</h5>
+  <h5 class="text-center my-4 mb-8">Sign up with Email address</h5>
   <v-form ref="Regform" lazy-validation action="/dashboards/analytical" class="mt-7 loginForm">
     <v-row>
       <v-col cols="12" sm="6">

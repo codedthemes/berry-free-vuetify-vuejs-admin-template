@@ -23,11 +23,16 @@ const breadcrumbs = ref([
   <v-row>
     <v-col cols="12" md="12">
       <UiParentCard title="Basic Shadow">
-        <v-row justify="center">
-          <v-col v-for="n in 25" :key="n" cols="auto">
-            <v-card height="100" width="100" class="mb-5" :class="['d-flex justify-center align-center bg-primary', `elevation-${n}`]">
-              <div>{{ n - 1 }}</div>
+        <v-row justify="center" gap="24">
+          <v-col v-for="n in 6" :key="n" cols="12" sm="4" md="2">
+            <v-card
+              height="100"
+              class="mb-4 d-flex justify-center align-center border-thin rounded-lg transition-swing bg-primary"
+              :elevation="n - 1"
+            >
+              <div class="text-h6">{{ n - 1 }}</div>
             </v-card>
+            <div class="text-center text-subtitle-2 text-medium-emphasis">Elevation {{ n - 1 }}</div>
           </v-col>
         </v-row>
       </UiParentCard>

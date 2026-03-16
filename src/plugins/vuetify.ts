@@ -6,6 +6,15 @@ import * as directives from 'vuetify/directives';
 import { PurpleTheme } from '@/theme/LightTheme';
 
 export default createVuetify({
+  display: {
+    thresholds: {
+      xs: 0,
+      sm: 768,
+      md: 1024,
+      lg: 1266,
+      xl: 1440
+    }
+  },
   components,
   directives,
   icons: {
@@ -29,8 +38,16 @@ export default createVuetify({
     VCard: {
       rounded: 'md'
     },
+    VField: {
+      variant: 'outlined',
+      baseColor: 'inputBorder',
+      color: 'primary'
+    },
     VTextField: {
-      rounded: 'lg'
+      rounded: 'lg',
+      variant: 'outlined',
+      baseColor: 'inputBorder',
+      color: 'primary'
     },
     VTooltip: {
       // set v-tooltip default location to top

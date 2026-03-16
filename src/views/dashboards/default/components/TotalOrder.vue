@@ -138,13 +138,13 @@ const lineChart2 = {
         <v-tabs-window-item value="1">
           <v-row>
             <v-col cols="6">
-              <h2 class="text-h1 font-weight-medium">
+              <h1 class="font-weight-medium">
                 $108
                 <a href="#">
                   <CircleArrowDownLeftIcon stroke-width="1.5" width="28" class="text-white" />
                 </a>
-              </h2>
-              <span class="text-subtitle-1 text-medium-emphasis text-white">Total Order</span>
+              </h1>
+              <span class="text-body-large text-medium-emphasis text-white">Total Order</span>
             </v-col>
             <v-col cols="6">
               <apexchart type="line" height="90" :options="chartOptions1" :series="lineChart1.series"> </apexchart>
@@ -154,13 +154,13 @@ const lineChart2 = {
         <v-tabs-window-item value="2">
           <v-row>
             <v-col cols="6">
-              <h2 class="text-h1 font-weight-medium">
+              <h1 class="font-weight-medium">
                 $961
                 <a href="#">
                   <ArrowDownLeftCircleIcon stroke-width="1.5" width="28" class="text-white" />
                 </a>
-              </h2>
-              <span class="text-subtitle-1 text-medium-emphasis text-white">Total Order</span>
+              </h1>
+              <span class="text-body-large text-medium-emphasis text-white">Total Order</span>
             </v-col>
             <v-col cols="6">
               <apexchart type="line" height="90" :options="chartOptions2" :series="lineChart2.series"> </apexchart>

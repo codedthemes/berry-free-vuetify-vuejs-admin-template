@@ -41,7 +41,7 @@ const colors = ref([
     <v-col cols="12" md="12">
       <UiParentCard title="Color Palette">
         <v-row>
-          <v-col md="3" cols="12" v-for="(color, index) in colors" :key="index">
+          <v-col md="3" sm="6" cols="12" v-for="(color, index) in colors" :key="index">
             <v-sheet rounded="md" class="align-center justify-center d-flex" height="100" width="100%" :color="color"
               >class: {{ color }}
             </v-sheet>

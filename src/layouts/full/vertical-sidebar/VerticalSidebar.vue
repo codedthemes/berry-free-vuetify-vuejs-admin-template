@@ -36,7 +36,7 @@ const appVersion = import.meta.env.VITE_APP_VERSION;
     <!-- ---------------------------------------------- -->
     <!---Navigation -->
     <!-- ---------------------------------------------- -->
-    <perfect-scrollbar class="scrollnavbar">
+    <perfect-scrollbar class="scrollnavbar" :options="{ suppressScrollX: true }">
       <v-list class="pa-4">
         <!---Menu Loop -->
         <template v-for="(item, i) in sidebarMenu" :key="i">

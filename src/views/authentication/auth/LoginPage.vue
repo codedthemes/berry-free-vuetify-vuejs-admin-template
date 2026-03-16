@@ -4,11 +4,11 @@ import AuthLogin from '../authForms/AuthLogin.vue';
 </script>
 
 <template>
-  <v-row class="h-screen" no-gutters>
+  <v-row class="h-screen" gap="0">
     <!---Left Part-->
     <v-col cols="12" class="d-flex align-center bg-lightprimary">
       <v-container>
-        <div class="pa-7 pa-sm-12">
+        <div class="pa-4 pa-sm-12">
           <v-row justify="center">
             <v-col cols="12" lg="10" xl="6" md="7">
               <v-card elevation="0" class="loginBox">
@@ -18,8 +18,8 @@ import AuthLogin from '../authForms/AuthLogin.vue';
                     <v-row>
                       <v-col cols="12" class="text-center">
                         <Logo />
-                        <h2 class="text-secondary text-h2 mt-8">Hi, Welcome Back</h2>
-                        <h4 class="text-disabled text-h4 mt-3">Enter your credentials to continue</h4>
+                        <h2 class="text-secondary mt-8">Hi, Welcome Back</h2>
+                        <h4 class="text-disabled mt-3">Enter your credentials to continue</h4>
                       </v-col>
                     </v-row>
                     <!---Left Part Logo -->
