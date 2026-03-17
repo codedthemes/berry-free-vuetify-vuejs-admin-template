@@ -1,0 +1,33 @@
+@use "./grid/grid-breakpoints" as *;
+
+$custom-card-text-padding: 24px;
+$custom-card-actions-padding: 0.625rem 24px 24px;
+$custom-card-item-padding: 20px 24px;
+$custom-card-title-font-size: 1.125rem;
+$custom-card-title-font-weight: 500;
+$custom-card-title-line-height: 1.334;
+
+
+// src/styles/settings.scss
+@forward "vuetify/settings" with ($grid-breakpoints: $custom-grid-breakpoints,
+
+    // cards
+    $card-text-padding: $custom-card-text-padding,
+    $card-actions-padding: $custom-card-actions-padding,
+    $card-item-padding: $custom-card-item-padding,
+    $card-title-font-size: $custom-card-title-font-size,
+    $card-title-font-weight: $custom-card-title-font-weight,
+    $card-title-line-height: $custom-card-title-line-height);
+
+// Manually override the `vuetify-core` reset targeting `button` by
+// injecting into a higher precedence layer per the Vuetify documentation.
+@layer vuetify-core {
+
+    button,
+    [type='button'],
+    [type='reset'],
+    [type='submit'],
+    [role='button'] {
+        color: initial;
+    }
+}
