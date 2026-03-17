@@ -1,10 +1,10 @@
 <script setup lang="ts">
 // imported components
-import TotalEarning from './components/TotalEarning.vue';
-import TotalOrder from './components/TotalOrder.vue';
-import TotalIncome from './components/TotalIncome.vue';
-import TotalGrowth from './components/TotalGrowth.vue';
-import PopularStocks from './components/PopularStocks.vue';
+import TotalEarning from '@/components/dashboard/default/TotalEarning.vue';
+import TotalOrder from '@/components/dashboard/default/TotalOrder.vue';
+import TotalIncome from '@/components/dashboard/default/TotalIncome.vue';
+import TotalGrowth from '@/components/dashboard/default/TotalGrowth.vue';
+import PopularStocks from '@/components/dashboard/default/PopularStocks.vue';
 </script>
 
 <template>

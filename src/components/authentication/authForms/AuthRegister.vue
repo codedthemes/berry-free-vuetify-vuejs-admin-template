@@ -35,24 +35,10 @@ function validate() {
   <v-form ref="Regform" lazy-validation action="/dashboards/analytical" class="mt-7 loginForm">
     <v-row>
       <v-col cols="12" sm="6">
-        <v-text-field
-          v-model="firstname"
-          density="comfortable"
-          hide-details="auto"
-          variant="outlined"
-          color="primary"
-          label="Firstname"
-        ></v-text-field>
+        <v-text-field v-model="firstname" hide-details="auto" label="Firstname"></v-text-field>
       </v-col>
       <v-col cols="12" sm="6">
-        <v-text-field
-          v-model="lastname"
-          density="comfortable"
-          hide-details="auto"
-          variant="outlined"
-          color="primary"
-          label="Lastname"
-        ></v-text-field>
+        <v-text-field v-model="lastname" hide-details="auto" label="Lastname"></v-text-field>
       </v-col>
     </v-row>
     <v-text-field
@@ -61,24 +47,17 @@ function validate() {
       label="Email Address / Username"
       class="mt-4 mb-4"
       required
-      density="comfortable"
       hide-details="auto"
-      variant="outlined"
-      color="primary"
     ></v-text-field>
     <v-text-field
       v-model="password"
       :rules="passwordRules"
       label="Password"
       required
-      density="comfortable"
-      variant="outlined"
-      color="primary"
       hide-details="auto"
-      :append-icon="show1 ? '$eye' : '$eyeOff'"
+      :append-inner-icon="show1 ? '$eye' : '$eyeOff'"
       :type="show1 ? 'text' : 'password'"
       @click:append="show1 = !show1"
-      class="pwdInput"
     ></v-text-field>
 
     <div class="d-sm-inline-flex align-center mt-2 mb-7 mb-sm-0 font-weight-bold">
@@ -116,14 +95,5 @@ function validate() {
   padding: 2px 40px;
   border-color: rgba(0, 0, 0, 0.08);
   margin: 20px 15px;
-}
-.pwdInput {
-  position: relative;
-  .v-input__append {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 }
 </style>
