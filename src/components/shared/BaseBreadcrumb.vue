@@ -15,16 +15,16 @@ const props = defineProps({
 
 // ===============================|| Theme Breadcrumb ||=============================== //
 <template>
-  <v-row class="page-breadcrumb mb-1 mt-1">
+  <v-row class="page-breadcrumb mb-6">
     <v-col cols="12" md="12">
       <v-card variant="flat" class="px-4 py-3">
-        <v-row no-gutters class="align-center">
+        <v-row gap="0" class="align-center">
           <v-col md="5">
-            <h3 class="text-h3">{{ props.title }}</h3>
+            <h3>{{ props.title }}</h3>
           </v-col>
 
           <v-col md="7" sm="12" cols="12">
-            <v-breadcrumbs :items="props.breadcrumbs" class="text-h5 justify-md-end pa-1">
+            <v-breadcrumbs :items="props.breadcrumbs" class="text-headline-medium justify-md-end pa-1">
               <template v-slot:divider>
                 <div class="d-flex align-center">
                   <ChevronRightIcon size="17" />

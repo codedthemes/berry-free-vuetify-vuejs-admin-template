@@ -41,5 +41,12 @@ export default [
         }
       ]
     }
+  },
+  {
+    name: 'custom/vue-rules',
+    files: ['src/pages/**/*.vue'],
+    rules: {
+      'vue/multi-word-component-names': 'off'
+    }
   }
 ];
