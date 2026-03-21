@@ -32,7 +32,7 @@ $box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
   $rounded: (
       (
         0: 0,
-        'sm': $border-radius-root * 0.5,
+        'sm': $border-radius-root * calc(2/3),
         null: $border-radius-root,
         'md': $border-radius-root * 1,
         'lg': $border-radius-root * 2,

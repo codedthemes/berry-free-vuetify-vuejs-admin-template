@@ -32,8 +32,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       Record<never, never>,
       | '/(main)/dashboard/default'
-      | '/(main)/icons/material'
-      | '/(main)/icons/tabler'
       | '/(main)/starter'
       | '/(main)/utils/color'
       | '/(main)/utils/shadow'
@@ -42,20 +40,6 @@ declare module 'vue-router/auto-routes' {
     '/(main)/dashboard/default': RouteRecordInfo<
       '/(main)/dashboard/default',
       '/dashboard/default',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/(main)/icons/material': RouteRecordInfo<
-      '/(main)/icons/material',
-      '/icons/material',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/(main)/icons/tabler': RouteRecordInfo<
-      '/(main)/icons/tabler',
-      '/icons/tabler',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -126,8 +110,6 @@ declare module 'vue-router/auto-routes' {
       routes:
         | '/(main)'
         | '/(main)/dashboard/default'
-        | '/(main)/icons/material'
-        | '/(main)/icons/tabler'
         | '/(main)/starter'
         | '/(main)/utils/color'
         | '/(main)/utils/shadow'
@@ -138,18 +120,6 @@ declare module 'vue-router/auto-routes' {
     'src/pages/(main)/dashboard/default.vue': {
       routes:
         | '/(main)/dashboard/default'
-      views:
-        | never
-    }
-    'src/pages/(main)/icons/material.vue': {
-      routes:
-        | '/(main)/icons/material'
-      views:
-        | never
-    }
-    'src/pages/(main)/icons/tabler.vue': {
-      routes:
-        | '/(main)/icons/tabler'
       views:
         | never
     }

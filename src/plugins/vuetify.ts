@@ -41,17 +41,19 @@ export default createVuetify({
     VField: {
       variant: 'outlined',
       baseColor: 'inputBorder',
-      color: 'primary'
+      color: 'primary',
+      rounded: 'sm'
     },
     VTextField: {
-      rounded: 'lg',
+      rounded: 'sm',
       variant: 'outlined',
       baseColor: 'inputBorder',
       color: 'primary'
     },
     VTooltip: {
       // set v-tooltip default location to top
-      location: 'top'
+      location: 'top',
+      scrollStrategy: 'close'
     }
   }
 });

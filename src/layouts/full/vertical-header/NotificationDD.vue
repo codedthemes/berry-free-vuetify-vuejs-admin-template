@@ -14,7 +14,7 @@ const selectNotify = ref<string>('All Notifications');
     <div class="d-flex align-center justify-space-between mb-3">
       <h5>
         All Notifications
-        <v-chip color="warning" variant="flat" size="small" class="ml-2 text-white">01</v-chip>
+        <v-chip color="warning" variant="flat" size="small" class="ml-2">01</v-chip>
       </h5>
       <a href="#" class="text-decoration-underline text-primary text-body-small">Mark as all read</a>
     </div>

@@ -4,7 +4,7 @@ html {
   }
 }
 
-.v-row + .v-row {
+.v-row+.v-row {
   margin-top: 0px;
 }
 
@@ -30,12 +30,6 @@ ul:not(.v-breadcrumbs) {
   flex: unset;
 }
 
-.customizer-btn .icon {
-  animation: progress-circular-rotate 1.4s linear infinite;
-  transform-origin: center center;
-  transition: all 0.2s ease-in-out;
-}
-
 .no-spacer {
   .v-list-item__spacer {
     display: none !important;
@@ -48,59 +42,10 @@ ul:not(.v-breadcrumbs) {
   }
 }
 
-@layer vuetify-core {
-  h1 {
-    font-size: 2.125rem;
-    font-weight: 700;
-    line-height: 3.5rem;
-    margin-block: 0;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 2.5rem;
-    margin-block: 0;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 2rem;
-    margin-block: 0;
-  }
-
-  h4 {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.5rem;
-    margin-block: 0;
-  }
-
-  h5 {
-    font-size: 0.875rem;
-    font-weight: 500;
-    line-height: 1.2rem;
-    margin-block: 0;
-  }
-
-  h6 {
-    font-size: 0.75rem;
-    font-weight: 500;
-    margin-block: 0;
-  }
-
-  p {
-    margin-block-start: 0;
-  }
-}
-
-@layer vuetify-components {
-
-  .v-menu>.v-overlay__content>.v-card,
-  .v-menu>.v-overlay__content>.v-sheet,
-  .v-menu>.v-overlay__content>.v-list {
-    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+.v-toolbar.breadcrumb {
+  .v-toolbar__content {
+    flex-wrap: wrap;
+    height: unset !important;
   }
 }
 
@@ -123,31 +68,149 @@ ul:not(.v-breadcrumbs) {
   .apexcharts-svg {
     background: transparent !important;
   }
+
   .apexcharts-tooltip-rangebar {
     padding: 0px 8px 5px;
   }
+
   .apexcharts-tooltip-title {
     margin-bottom: 0;
   }
+
   .apexcharts-tooltip-marker {
-    margin-top: -7px;
+    margin-top: -9px;
   }
-  .apexcharts-tooltip {
-    &.apexcharts-theme-light {
-      color: rgb(var(--v-theme-darkText));
-    }
-  }
+
   .apexcharts-tooltip-series-group {
+
     &.apexcharts-active,
     &:last-child {
       padding-bottom: 0;
     }
   }
+
   .apexcharts-menu {
     .apexcharts-menu-item {
       &:hover {
         background: rgb(var(--v-theme-gray100));
       }
     }
+  }
+}
+
+@layer vuetify-core {
+  h1 {
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1rem;
+    letter-spacing: normal;
+    margin-block: 0;
+  }
+
+  p {
+    margin-block-start: 0;
+  }
+}
+
+@layer vuetify-utilities {
+  .elevation-5 {
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@layer vuetify-components {
+
+  .v-menu>.v-overlay__content>.v-card,
+  .v-menu>.v-overlay__content>.v-sheet,
+  .v-menu>.v-overlay__content>.v-list {
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+  }
+
+  .v-list-item-title {
+    letter-spacing: normal;
+  }
+
+  .v-input--density-default {
+
+    .v-field--variant-solo,
+    .v-field--variant-solo-inverted,
+    .v-field--variant-filled,
+    .v-field--variant-solo-filled {
+      .v-label.v-field-label--floating {
+        top: 3px;
+      }
+    }
+  }
+
+  .v-input--density-compact {
+    --v-input-control-height: 40px;
+
+    .v-field {
+      min-height: 40px;
+      height: 40px;
+    }
+
+    .v-field__control,
+    .v-field__input {
+      height: 40px;
+      min-height: 40px;
+    }
+
+    input {
+      height: 40px;
+      min-height: 40px;
+    }
+
+    &.v-select {
+      .v-field__input {
+        flex-wrap: nowrap;
+      }
+    }
+  }
+
+  .v-text-field__prefix,
+  .v-text-field__suffix {
+    padding-top: var(--v-field-input-padding-top);
+    padding-bottom: var(--v-field-input-padding-bottom);
   }
 }
