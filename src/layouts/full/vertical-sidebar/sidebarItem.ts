@@ -44,19 +44,19 @@ const sidebarItem: menu[] = [
       {
         title: 'Login',
         icon: CircleIcon,
-        to: '/login1'
+        to: '/authentication/login'
       },
       {
         title: 'Register',
         icon: CircleIcon,
-        to: '/register'
+        to: '/authentication/register'
       }
     ]
   },
   {
     title: 'Error 404',
     icon: BugIcon,
-    to: '/error'
+    to: '/maintenance/error'
   },
   { divider: true },
   { header: 'Utilities' },
@@ -68,28 +68,30 @@ const sidebarItem: menu[] = [
   {
     title: 'Shadows',
     icon: ShadowIcon,
-    to: '/utils/shadows'
+    to: '/utils/shadow'
   },
   {
     title: 'Colors',
     icon: PaletteIcon,
-    to: '/utils/colors'
+    to: '/utils/color'
   },
 
   {
     title: 'Icons',
     icon: WindmillIcon,
-    to: '/forms/radio',
+    to: '/utils/icons',
     children: [
       {
         title: 'Tabler Icons',
         icon: CircleIcon,
-        to: '/icons/tabler'
+        to: 'https://tabler.io/icons',
+        type: 'external'
       },
       {
         title: 'Material Icons',
         icon: CircleIcon,
-        to: '/icons/material'
+        to: 'https://pictogrammers.com/library/mdi/',
+        type: 'external'
       }
     ]
   },

@@ -8,13 +8,11 @@ import { PerfectScrollbarPlugin } from 'vue3-perfect-scrollbar';
 import VueApexCharts from 'vue3-apexcharts';
 import VueTablerIcons from 'vue-tabler-icons';
 
-import { fakeBackend } from '@/utils/helpers/fake-backend';
-
 const app = createApp(App);
-fakeBackend();
+const pinia = createPinia();
+app.use(pinia);
 app.use(router);
 app.use(PerfectScrollbarPlugin);
-app.use(createPinia());
 app.use(VueTablerIcons);
 app.use(VueApexCharts);
 app.use(vuetify).mount('#app');

@@ -1,11 +1,13 @@
 .profileBtn {
   height: 50px !important;
-  margin: 0 20px 0 10px !important;
+  margin-inline-end: 20px;
 }
 
 .search-sheet {
   position: absolute;
   z-index: 9;
+  width: calc(100% - 24px);
+  left: 12px;
 }
 
 .circle {

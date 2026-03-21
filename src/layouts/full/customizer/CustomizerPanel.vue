@@ -24,7 +24,7 @@ function clearoptions() {
         <v-row class="ma-0">
           <v-col cols="12" class="pa-0">
             <div class="pa-5 d-flex justify-space-between align-center">
-              <div class="text-subtitle-1 font-weight-medium">Theme customizer</div>
+              <h5>Theme customizer</h5>
               <div>
                 <v-btn color="error" variant="outlined" size="small" class="mr-2" @click="clearoptions"> Reset </v-btn>
                 <v-btn
@@ -43,7 +43,7 @@ function clearoptions() {
             <!-- Font Family -->
             <!------------------------------------->
             <v-card-item class="py-5">
-              <v-card-title class="text-subtitle-1 font-weight-medium mb-4">Font Style</v-card-title>
+              <v-card-title class="text-body-large mb-4">Font Style</v-card-title>
               <v-card-text class="pa-0">
                 <v-radio-group v-model="customizer.fontTheme" hide-details class="custom-font">
                   <v-radio v-for="font in fontFamily" :key="font" :label="font" :value="font" color="primary" class="mb-5"></v-radio>
@@ -59,7 +59,7 @@ function clearoptions() {
             <!-- Input Outlined With Filled -->
             <!------------------------------------->
             <div class="d-flex justify-space-between align-center pa-5">
-              <div class="text-subtitle-1 font-weight-medium">Input Background</div>
+              <h5>Input Background</h5>
               <div>
                 <v-radio-group class="custom-radio input-radio ma-n2" v-model="customizer.inputBg" hide-details>
                   <v-radio :value="true" color="primary" class="ma-2 input-bg"> </v-radio>
@@ -119,10 +119,8 @@ function clearoptions() {
 }
 .custom-font {
   .v-selection-control-group {
-    .v-selection-control__wrapper {
-      display: none;
-    }
     .v-selection-control {
+      position: relative;
       border: 2px solid rgba(var(--v-theme-borderLight), 0.36);
       outline: 6px solid rgba(var(--v-theme-borderLight), 0.1);
       border-radius: 4px;
@@ -131,6 +129,23 @@ function clearoptions() {
       &.v-selection-control--dirty {
         border: 1px solid rgba(var(--v-theme-primary), 1);
         outline: 6px solid rgba(var(--v-theme-primary), 0.1);
+      }
+
+      .v-selection-control__wrapper {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+
+        .v-selection-control__input {
+          position: absolute;
+          inset: 0;
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          margin: 0;
+        }
       }
     }
   }
