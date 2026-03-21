@@ -84,12 +84,14 @@ const sidebarItem: menu[] = [
       {
         title: 'Tabler Icons',
         icon: CircleIcon,
-        to: '/icons/tabler'
+        to: 'https://tabler.io/icons',
+        type: 'external'
       },
       {
         title: 'Material Icons',
         icon: CircleIcon,
-        to: '/icons/material'
+        to: 'https://pictogrammers.com/library/mdi/',
+        type: 'external'
       }
     ]
   },
