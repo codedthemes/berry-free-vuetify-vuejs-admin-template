@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { useCustomizerStore } from '../../../stores/customizer';
 // Icon Imports
-import { BellIcon, SettingsIcon, SearchIcon, Menu2Icon } from 'vue-tabler-icons';
+import { BellIcon, SettingsIcon, SearchIcon, Menu2Icon, BrandGithubIcon } from 'vue-tabler-icons';
 
 // dropdown imports
 import NotificationDD from './NotificationDD.vue';
@@ -73,6 +73,19 @@ function searchbox() {
     <!-- ---------------------------------------------- -->
     <!---right part -->
     <!-- ---------------------------------------------- -->
+
+    <v-btn
+      icon
+      class="text-primary"
+      color="lightprimary"
+      rounded="sm"
+      size="small"
+      variant="flat"
+      href="https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template"
+      target="_blank"
+    >
+      <BrandGithubIcon stroke-width="1.5" size="22" />
+    </v-btn>
 
     <!-- ---------------------------------------------- -->
     <!-- Notification -->
