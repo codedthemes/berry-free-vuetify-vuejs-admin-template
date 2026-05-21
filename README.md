@@ -1,12 +1,14 @@
-# Berry Free Vue Material Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+# Berry Free Vue Vuetify Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.com&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-vue-admin-template/blob/main/LICENSE)
+[![Vue](https://img.shields.io/badge/Vue-3-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
+[![Vuetify](https://img.shields.io/badge/Vuetify-4-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
+[![Vite](https://img.shields.io/badge/Vite-8-0098f7.svg)](https://github.com/codedthemes/Mantis-free-vue-admin-template/blob/main/LICENSE)
 [![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-vuetify-vuejs-admin-template)](https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template/)
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/berry-free-vuetify-vuejs-admin-template/)
 [![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
 
-Berry is a free Material admin dashboard template built with Vue. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+Berry is a free Vuetify admin dashboard template built with Vue. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
 
 ✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
@@ -27,9 +29,8 @@ Berry is a free Material admin dashboard template built with Vue. It is meant to
 - [More Vue Dashboard Templates](#more-vue-dashboard-templates)
 - [Issues?](#issues)
 - [License](#license)
-- [Contributor](#contributor)
 - [Useful Resources](#useful-resources)
-- [Community](#community)
+- [Community and Support](#community-and-support)
 - [Follow us](#follow-us)
 
 ## Getting Started
@@ -46,7 +47,7 @@ git clone https://github.com/codedthemes/berry-free-vue-admin-template.git
   - [Live Preview](https://berrydashboard.com/vue/free/)
   - [Download](https://github.com/codedthemes/berry-free-vue-admin-template)
 - Berry
-  - [Live Preview](https://berrydashboard.com/vue)
+  - [Live Preview](https://berrydashboard.com/vue/default)
   - [Download](https://codedthemes.com/item/berry-vue-admin-dashboard/)
 
 ## Why Berry?
@@ -62,7 +63,7 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## What's included in Premium Version?
 
-[Pro version](https://berrydashboard.com/vue) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+[Pro version](https://berrydashboard.com/vue/default) of Berry vue template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT), Advance Components, Form Plugins, Layouts, Widgets, and many more.
 
 | [Berry Free](https://berrydashboard.com/vue/free/) | [Berry](https://codedthemes.com/item/berry-vue-admin-dashboard/)            |
 | -------------------------------------------------- | :-------------------------------------------------------------------------- |
@@ -74,7 +75,7 @@ Berry offers everything you need to create dashboards. We have included the foll
 | -                                                  | ✓ 6+ color Options                                                          |
 | -                                                  | ✓ RTL                                                                       |
 | -                                                  | ✓ JWT authentications                                                       |
-| -                                                  | ✓ [More components](https://berrydashboard.com/vue/components/autocomplete) |
+| -                                                  | ✓ [More components](https://berrydashboard.com/vue/default/ui-elements/autocomplete) |
 
 ## Documentation
 
@@ -86,20 +87,15 @@ Berry offers everything you need to create dashboards. We have included the foll
 
 ## Technology Stack
 
-- [Vuetify 3](https://vuetifyjs.com/)
+- [Vuetify 4](https://vuetifyjs.com/)
 - [Vite](https://vite.dev/)
-- Vue3
+- [Vue 3](https://vuejs.org/)
 
 ## Berry Figma UI Kit
 
-<div>
-  <a href="https://codedthemes.com/item/berry-free-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Berry.png" width="450" alt="Figma Free">
-  </a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://codedthemes.com/item/berry-figma-ui-kit/">
-    <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma-Pro-Berry.png" width="450" alt="Figma Pro">
-  </a>
-</div>
+ | FREE                                                                                                                                                                                                           | PRO                                                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://codedthemes.com/item/berry-free-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma_Free_Berry.png" width="450" alt="Figma Free"></a> | <a href="https://codedthemes.com/item/berry-figma-ui-kit/" traget="_blank"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Figma-Pro-Berry.png" width="450" alt="Figma Pro"></a> |
 
 ## Other Technologies
 
@@ -118,6 +114,7 @@ Berry offers everything you need to create dashboards. We have included the foll
 | Dashboard                                                                                                                                                         | FREE                                                                               | PRO                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Mantis%20with%20name.png"  height="30" style="display:inline-block; vertical-align:middle;"> | [**Free**](https://codedthemes.com/item/mantis-free-vuetify-vuejs-admin-template/) | [**Pro**](https://codedthemes.com/item/mantis-vue-admin-template/)</span> |
+|<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Datta%20with%20name.png"  height="30"></p>     | [**Free**](https://codedthemes.com/demos/admin-templates/datta-able/vue/free/)       | [**Pro**](https://codedthemes.com/demos/admin-templates/datta-able/vue/) |
 
 ## Issues
 
@@ -127,20 +124,11 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 
 - Licensed cover under [MIT](https://github.com/codedthemes/berry-free-vuetify-vuejs-admin-template/blob/master/LICENSE)
 
-## Contributor
-
-**CodedThemes Team**
-
-- https://x.com/codedthemes
-- https://github.com/codedthemes
-
-**Rakesh Nakrani**
-
-- https://x.com/rakesh_nakrani
-
-**Brijesh Dobariya**
-
-- https://x.com/dobaria_brijesh
+## Community and Support
+ 
+- **GitHub Discussion** - [Ask questions and share ideas](https://github.com/codedthemes/berry-free-react-admin-template/discussions)
+- **X/Twitter** — [@codedthemes](https://x.com/codedthemes), [@rakesh_nakrani](https://x.com/rakesh_nakrani) [@dobaria_brijesh](https://x.com/dobaria_brijesh)
+- **Join Discord** – [Connect with the community](https://discord.com/invite/dW9cBZMJ)
 
 ## Useful Resources
 
@@ -150,12 +138,6 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 - [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
 - [Affiliate Program](https://codedthemes.com/affiliate/)
 - [Blogs](https://blog.codedthemes.com/)
-
-## Community
-
-- 👥Follow [@codedthemes](https://x.com/codedthemes)
-- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
-- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
 
 ## Follow us
 
