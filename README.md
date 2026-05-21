@@ -138,6 +138,7 @@ To report a bug, please submit an [issue](https://github.com/codedthemes/berry-f
 - [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
 - [Affiliate Program](https://codedthemes.com/affiliate/)
 - [Blogs](https://blog.codedthemes.com/)
+- [Vue Bundle](https://codedthemes.com/item/vue-bundle/)
 
 ## Follow us
 
